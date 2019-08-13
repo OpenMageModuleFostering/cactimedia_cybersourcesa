@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<package>
+    <name>Cactimedia_Cybersourcesa</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Secure Acceptance Web/Mobile is one of the payment integration method available for CyberSource.</summary>
+    <description>&lt;h3&gt;Introduction:&lt;/h3&gt;&#xD;
+&lt;p&gt;Secure Acceptance Web/Mobile is one of the payment integration method available for CyberSource.&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
+    &lt;a href="http://www.cybersource.com" target="_blank"&gt;CyberSource&lt;/a&gt; Secure Acceptance Web/Mobile allows businesses to accept payments made online, over the phone, and through mobile devices without ever handling toxic payment data, significantly reducing PCI DSS scope. It includes many additional benefits that reduce the burden and complexity of payment acceptance for IT departments and improves the checkout process for consumers.&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;h3&gt;Features:&lt;/h3&gt;&#xD;
+&lt;p&gt;&#xD;
+    - Tested for Magento version 1.5.1.0 - 1.8.1.0&lt;br /&gt;&#xD;
+    - Upgrade Proof Module.&lt;br /&gt;&#xD;
+    - Easy to install &amp; configure.&lt;br /&gt;&#xD;
+    - Option to enable/disable.&lt;br /&gt;&#xD;
+    - Other Options for payment settings.&lt;br /&gt;&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;h3&gt;Installation / Configuration:&lt;/h3&gt;&#xD;
+&lt;p&gt;&#xD;
+    1&gt; Install from magentoconnect using key: "http://connect20.magentocommerce.com/community/Cactimedia_Cybersourcesa".&lt;br /&gt;&#xD;
+    2&gt; After installation go to Admin: System &gt;&gt; Configuration &gt;&gt; Sales &gt;&gt; Payment Methods &gt;&gt; CyberSource Secure Acceptance WM &gt;&gt; Manage your payment setting here.&lt;br /&gt;&#xD;
+    &lt;strong&gt;Example:&lt;/strong&gt;&lt;br /&gt;&#xD;
+    &lt;br /&gt;&#xD;
+    Enabled: Yes&lt;br /&gt;&#xD;
+    Title: Cybersource Secure Acceptance WM&lt;br /&gt;&#xD;
+    *Access Key: xxxxxxxxxxx [Get the values from your CyberSource Backoffice]&lt;br /&gt;&#xD;
+    *Profile ID: xxxxx&lt;br /&gt;&#xD;
+    *Secret Key: xxxxxxxxxxxxxxxxxxxxxxx&lt;br /&gt;&#xD;
+    New Order Status: Pending&lt;br /&gt;&#xD;
+    Mode: Test&lt;br /&gt;&#xD;
+    Debug: Yes&lt;br /&gt;&#xD;
+    Payment from applicable countries: All Allowed Countries&lt;br /&gt;&#xD;
+    Payment from Specific countries:&lt;br /&gt;&#xD;
+    Sort Order: 1&lt;br /&gt;&#xD;
+    * : You have to create a profile on Cybersource Business Center and use the related values.&#xD;
+    &lt;br /&gt;&#xD;
+&#xD;
+&#xD;
+&lt;h3&gt;Installation Notes:&lt;/h3&gt;&#xD;
+&#xD;
+0&gt; Disable the Cache before Installation or Refresh the Cache after Installation.&lt;br /&gt;&#xD;
+1&gt; If you get 'Access Denied' error in System &gt; Configuration, then try to logout &amp; re-login.&lt;br /&gt;&#xD;
+2&gt; If you have custom theme then try to copy the following files:&lt;br /&gt;&#xD;
+app/design/frontend/default/default/layout/cybersourcesa.xml&lt;br /&gt;&#xD;
+app/design/frontend/default/default/template/cybersourcesa/*&lt;br /&gt;&#xD;
+&lt;br /&gt;&#xD;
+to&lt;br /&gt;&#xD;
+&lt;br /&gt;&#xD;
+app/design/frontend/[your-interface]/[your-theme]/layout/cybersourcesa.xml&lt;br /&gt;&#xD;
+app/design/frontend/[your-interface]/[your-theme]/template/cybersourcesa/*&lt;br /&gt;&#xD;
+&lt;/p&gt;&#xD;
+&lt;h3&gt;Live Demo:&lt;/h3&gt;&#xD;
+&lt;p&gt;Available on Request&lt;/p&gt;&#xD;
+&lt;h3&gt;Changelog:&lt;/h3&gt;&#xD;
+&lt;p&gt;&#xD;
+    --&#xD;
+&lt;/p&gt;&#xD;
+&lt;h3&gt;Quote / Support:&lt;/h3&gt;&#xD;
+&lt;p&gt;&lt;a href="http://www.cactimedia.com" target="_blank"&gt;Contact Us&lt;/a&gt;&lt;/p&gt;&#xD;
+&lt;h3&gt;&lt;span&gt;About Us&lt;/span&gt;&lt;/h3&gt;&#xD;
+&lt;p&gt;&lt;a href="http://www.cactimedia.com" target="_blank"&gt;www.cactimedia.com&lt;/a&gt;&lt;/p&gt;&#xD;
+Happy E-Commerce!!&lt;br /&gt;&#xD;
+CactiMedia Team</description>
+    <notes>- Secure Acceptance Web/Mobile is one of the payment integration method available for CyberSource.</notes>
+    <authors><author><name>Avdhoot Shitre</name><user>avdhoots</user><email>avdhoot@cactimedia.com</email></author></authors>
+    <date>2014-01-26</date>
+    <time>14:22:13</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Cactimedia_Cybersourcesa.xml" hash="d8b2aaabcfe99fcaf7407910cc98e29d"/></dir></target><target name="magelocal"><dir name="Cactimedia"><dir name="Cybersourcesa"><dir name="Block"><file name="Failure.php" hash="329af792e6a35096c5cb072ad9127cae"/><file name="Form.php" hash="d4c2592f59747fc86185a54a321e558e"/><file name="Info.php" hash="36160fbbea6e81237fd297dd4e28d301"/><file name="Redirect.php" hash="75500c037b96a5269bb689fbbec43004"/><dir name="System"><dir name="Config"><file name="Info.php" hash="c46975abb52f7eb2455123fc9227c45d"/><file name="Payment.php" hash="a40d3a3fb328fdce88e35dd96a78d416"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="0b4191e011c82ca225df1d98e4f07e3c"/></dir><dir name="Model"><file name="Cybersourcesa.php" hash="67cc7a95eb1be577a4f6d0537dd33beb"/><dir name="System"><dir name="Config"><dir name="Source"><file name="Modes.php" hash="e841cb16e896669e8c95eb612faad669"/></dir></dir></dir></dir><dir name="controllers"><file name="ProcessController.php" hash="7370a05133a2f88bd6ea1368fb0a54e0"/></dir><dir name="etc"><file name="adminhtml.xml" hash="65dc9c28b731176a0fba462e6ac1d4a4"/><file name="config.xml" hash="e42471cdb2f5dea699068f427826eaf4"/><file name="system.xml" hash="7f3f0dc2cf2263d383549e66dbf6b9e1"/></dir><dir name="sql"><dir name="cybersourcesa_setup"><file name="mysql4-install-0.1.0.php" hash="6d82c7b09e2979635d4ef88277e37aba"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="cybersourcesa.xml" hash="724401a2196532edba1c19408f2024ea"/></dir><dir name="template"><dir name="cybersourcesa"><file name="failure.phtml" hash="80a3c3d6f769e83d2df74ee3879d18c2"/><file name="form.phtml" hash="545c0384092aac76945fa5d8d0818f0b"/><file name="info.phtml" hash="242d9dd87a1474720104cc7f7208517e"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
