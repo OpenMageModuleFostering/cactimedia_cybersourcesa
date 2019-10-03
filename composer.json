@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Cactimedia_Cybersourcesa",
+    "name": "OpenMageModuleFostering\/Cactimedia_Cybersourcesa",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
-    "description": "Secure Acceptance Web/Mobile is one of the payment integration method available for CyberSource.",
+    "description": "Secure Acceptance Web\/Mobile is one of the payment integration method available for CyberSource.",
     "authors": [
-    {
-        "name": "Avdhoot Shitre",
-        "email": "avdhoot@cactimedia.com"
-    }
-],
+        {
+            "name": "Avdhoot Shitre",
+            "email": "avdhoot@cactimedia.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
